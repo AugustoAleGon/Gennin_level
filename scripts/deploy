@@ -1,7 +1,7 @@
 #!/bin/sh
 sudo su - jenkins
 ssh ubuntu@18.191.158.155 <<EOF
-    cd ~/gennin_level
+    cd ~/Gennin_level
     git pull
     curl -o-   https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
     . ~/.nvm/nvm.sh
